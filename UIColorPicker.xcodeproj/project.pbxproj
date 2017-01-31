@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C3BC58BAD330C0F2CA421B /* Pods_UIColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88023996F5E57A012B489D7 /* Pods_UIColorPicker.framework */; };
 		B289DFD01E40D72D00C61E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289DFCF1E40D72D00C61E14 /* AppDelegate.swift */; };
 		B289DFD21E40D72D00C61E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289DFD11E40D72D00C61E14 /* ViewController.swift */; };
 		B289DFD51E40D72D00C61E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B289DFD31E40D72D00C61E14 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B289DFDA1E40D72D00C61E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B289DFD81E40D72D00C61E14 /* LaunchScreen.storyboard */; };
 		B289DFE51E40D72D00C61E14 /* UIColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289DFE41E40D72D00C61E14 /* UIColorPickerTests.swift */; };
 		B289DFF01E40D72D00C61E14 /* UIColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289DFEF1E40D72D00C61E14 /* UIColorPickerUITests.swift */; };
+		D1853D3B6C74512D149E54ED /* Pods_UIColorPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1870AA6E986FCCB7D7B5886 /* Pods_UIColorPickerTests.framework */; };
+		D619AAD45A78CC1AF43F10F9 /* Pods_UIColorPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E4AF899555C3D4FC96F4E /* Pods_UIColorPickerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F7DAEA8D7CA7F802ABA9D5 /* Pods-UIColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPicker/Pods-UIColorPicker.release.xcconfig"; sourceTree = "<group>"; };
+		889CC0626B38E759793139A0 /* Pods-UIColorPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerUITests/Pods-UIColorPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		910E4AF899555C3D4FC96F4E /* Pods_UIColorPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIColorPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88023996F5E57A012B489D7 /* Pods_UIColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B289DFCC1E40D72D00C61E14 /* UIColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B289DFCF1E40D72D00C61E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B289DFD11E40D72D00C61E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		B289DFEB1E40D72D00C61E14 /* UIColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B289DFEF1E40D72D00C61E14 /* UIColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorPickerUITests.swift; sourceTree = "<group>"; };
 		B289DFF11E40D72D00C61E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B355958E59CBBAD9C2134ED8 /* Pods-UIColorPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerTests/Pods-UIColorPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1345BF129C1A7728FF222F6 /* Pods-UIColorPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerUITests/Pods-UIColorPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60CFDE5468ECAA72DA23768 /* Pods-UIColorPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerTests/Pods-UIColorPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1870AA6E986FCCB7D7B5886 /* Pods_UIColorPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIColorPickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3B7C0106DF018DEAC47C16 /* Pods-UIColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPicker/Pods-UIColorPicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C3BC58BAD330C0F2CA421B /* Pods_UIColorPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1853D3B6C74512D149E54ED /* Pods_UIColorPickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D619AAD45A78CC1AF43F10F9 /* Pods_UIColorPickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B553BA068F1A523B3473506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B7C0106DF018DEAC47C16 /* Pods-UIColorPicker.debug.xcconfig */,
+				02F7DAEA8D7CA7F802ABA9D5 /* Pods-UIColorPicker.release.xcconfig */,
+				B355958E59CBBAD9C2134ED8 /* Pods-UIColorPickerTests.debug.xcconfig */,
+				C60CFDE5468ECAA72DA23768 /* Pods-UIColorPickerTests.release.xcconfig */,
+				889CC0626B38E759793139A0 /* Pods-UIColorPickerUITests.debug.xcconfig */,
+				C1345BF129C1A7728FF222F6 /* Pods-UIColorPickerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B289DFC31E40D72D00C61E14 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				B289DFE31E40D72D00C61E14 /* UIColorPickerTests */,
 				B289DFEE1E40D72D00C61E14 /* UIColorPickerUITests */,
 				B289DFCD1E40D72D00C61E14 /* Products */,
+				9B553BA068F1A523B3473506 /* Pods */,
+				F0F6FB364074FBDF3000CF22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = UIColorPickerUITests;
 			sourceTree = "<group>";
 		};
+		F0F6FB364074FBDF3000CF22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88023996F5E57A012B489D7 /* Pods_UIColorPicker.framework */,
+				F1870AA6E986FCCB7D7B5886 /* Pods_UIColorPickerTests.framework */,
+				910E4AF899555C3D4FC96F4E /* Pods_UIColorPickerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B289DFF41E40D72D00C61E14 /* Build configuration list for PBXNativeTarget "UIColorPicker" */;
 			buildPhases = (
+				B43F0342899B2C7F7AB950FF /* [CP] Check Pods Manifest.lock */,
 				B289DFC81E40D72D00C61E14 /* Sources */,
 				B289DFC91E40D72D00C61E14 /* Frameworks */,
 				B289DFCA1E40D72D00C61E14 /* Resources */,
+				8778AAF8B0321274D30C3ED7 /* [CP] Embed Pods Frameworks */,
+				9EB6C3735B6B1A0D0F07C6C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B289DFF71E40D72D00C61E14 /* Build configuration list for PBXNativeTarget "UIColorPickerTests" */;
 			buildPhases = (
+				F0725047F77E130F9FFB4FE5 /* [CP] Check Pods Manifest.lock */,
 				B289DFDC1E40D72D00C61E14 /* Sources */,
 				B289DFDD1E40D72D00C61E14 /* Frameworks */,
 				B289DFDE1E40D72D00C61E14 /* Resources */,
+				14521DFB24754A4F50EA8DBA /* [CP] Embed Pods Frameworks */,
+				0CFD9254CF808933F95EFB39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B289DFFA1E40D72D00C61E14 /* Build configuration list for PBXNativeTarget "UIColorPickerUITests" */;
 			buildPhases = (
+				815212EB395D9E19877DC396 /* [CP] Check Pods Manifest.lock */,
 				B289DFE71E40D72D00C61E14 /* Sources */,
 				B289DFE81E40D72D00C61E14 /* Frameworks */,
 				B289DFE91E40D72D00C61E14 /* Resources */,
+				42B94E0C11478CE19C7F3211 /* [CP] Embed Pods Frameworks */,
+				5776F67E132902DC6E856621 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFD9254CF808933F95EFB39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorPickerTests/Pods-UIColorPickerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14521DFB24754A4F50EA8DBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorPickerTests/Pods-UIColorPickerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B94E0C11478CE19C7F3211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorPickerUITests/Pods-UIColorPickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5776F67E132902DC6E856621 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorPickerUITests/Pods-UIColorPickerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815212EB395D9E19877DC396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8778AAF8B0321274D30C3ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorPicker/Pods-UIColorPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB6C3735B6B1A0D0F07C6C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIColorPicker/Pods-UIColorPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43F0342899B2C7F7AB950FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0725047F77E130F9FFB4FE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B289DFC81E40D72D00C61E14 /* Sources */ = {
@@ -411,6 +598,7 @@
 		};
 		B289DFF51E40D72D00C61E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3B7C0106DF018DEAC47C16 /* Pods-UIColorPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HAL2GZP96H;
@@ -424,6 +612,7 @@
 		};
 		B289DFF61E40D72D00C61E14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F7DAEA8D7CA7F802ABA9D5 /* Pods-UIColorPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HAL2GZP96H;
@@ -437,6 +626,7 @@
 		};
 		B289DFF81E40D72D00C61E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B355958E59CBBAD9C2134ED8 /* Pods-UIColorPickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		B289DFF91E40D72D00C61E14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60CFDE5468ECAA72DA23768 /* Pods-UIColorPickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +658,7 @@
 		};
 		B289DFFB1E40D72D00C61E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889CC0626B38E759793139A0 /* Pods-UIColorPickerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HAL2GZP96H;
@@ -481,6 +673,7 @@
 		};
 		B289DFFC1E40D72D00C61E14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1345BF129C1A7728FF222F6 /* Pods-UIColorPickerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HAL2GZP96H;

@@ -1,0 +1,6 @@
+framework module Pods_UIColorPickerTests {
+  umbrella header "Pods-UIColorPickerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
