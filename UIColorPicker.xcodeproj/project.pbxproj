@@ -15,6 +15,7 @@
 		B289DFDA1E40D72D00C61E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B289DFD81E40D72D00C61E14 /* LaunchScreen.storyboard */; };
 		B289DFE51E40D72D00C61E14 /* UIColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289DFE41E40D72D00C61E14 /* UIColorPickerTests.swift */; };
 		B289DFF01E40D72D00C61E14 /* UIColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289DFEF1E40D72D00C61E14 /* UIColorPickerUITests.swift */; };
+		B2BAD7061E4384650019B867 /* VisionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAD7051E4384650019B867 /* VisionApiClient.swift */; };
 		D1853D3B6C74512D149E54ED /* Pods_UIColorPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1870AA6E986FCCB7D7B5886 /* Pods_UIColorPickerTests.framework */; };
 		D619AAD45A78CC1AF43F10F9 /* Pods_UIColorPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E4AF899555C3D4FC96F4E /* Pods_UIColorPickerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		B289DFEB1E40D72D00C61E14 /* UIColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B289DFEF1E40D72D00C61E14 /* UIColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorPickerUITests.swift; sourceTree = "<group>"; };
 		B289DFF11E40D72D00C61E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2BAD7051E4384650019B867 /* VisionApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionApiClient.swift; sourceTree = "<group>"; };
 		B355958E59CBBAD9C2134ED8 /* Pods-UIColorPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerTests/Pods-UIColorPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1345BF129C1A7728FF222F6 /* Pods-UIColorPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerUITests/Pods-UIColorPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C60CFDE5468ECAA72DA23768 /* Pods-UIColorPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIColorPickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIColorPickerTests/Pods-UIColorPickerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				B289DFD61E40D72D00C61E14 /* Assets.xcassets */,
 				B289DFD81E40D72D00C61E14 /* LaunchScreen.storyboard */,
 				B289DFDB1E40D72D00C61E14 /* Info.plist */,
+				B2BAD7051E4384650019B867 /* VisionApiClient.swift */,
 			);
 			path = UIColorPicker;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B289DFD21E40D72D00C61E14 /* ViewController.swift in Sources */,
+				B2BAD7061E4384650019B867 /* VisionApiClient.swift in Sources */,
 				B289DFD01E40D72D00C61E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,6 +709,7 @@
 				B289DFF61E40D72D00C61E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B289DFF71E40D72D00C61E14 /* Build configuration list for PBXNativeTarget "UIColorPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -713,6 +718,7 @@
 				B289DFF91E40D72D00C61E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B289DFFA1E40D72D00C61E14 /* Build configuration list for PBXNativeTarget "UIColorPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +727,7 @@
 				B289DFFC1E40D72D00C61E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
