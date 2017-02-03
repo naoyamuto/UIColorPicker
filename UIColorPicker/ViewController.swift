@@ -24,6 +24,19 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
     }
 
+    func base64EncodeImage(_ image: UIImage) -> String {
+        let maxApiLimitImageSize = 2097152
+        guard var imageData = UIImagePNGRepresentation(image) else {
+            return ""
+        }
+        if imageData.count > maxApiLimitImageSize {
+            let oldSize: CGSize = image.size
+            let newSize: CGSize = CGSize(width: 800, height: oldSize.height / oldSize.width * 800)
+            imageData = resizeImage(newSize, image: image)
+        }
+        return imageData.base64EncodedString(options: .endLineWithCarriageReturn)
+    }
+
     @IBAction func tappedSelectButton(_ sender: UIButton) {
         imagePickerController.allowsEditing = false
         imagePickerController.sourceType = .photoLibrary
@@ -38,6 +51,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imageView.contentMode = .scaleAspectFit
             imageView.image = pickedImage
+            let binaryImageData = base64EncodeImage(pickedImage)
         }
 
         dismiss(animated: true, completion: nil)
@@ -45,5 +59,14 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
 
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
+    }
+
+    func resizeImage(_ imageSize: CGSize, image: UIImage) -> Data {
+        UIGraphicsBeginImageContext(imageSize)
+        image.draw(in: CGRect(x: 0, y: 0, width: imageSize.width, height: imageSize.height))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        let resizedImage = UIImagePNGRepresentation(newImage!)
+        UIGraphicsEndImageContext()
+        return resizedImage!
     }
 }
